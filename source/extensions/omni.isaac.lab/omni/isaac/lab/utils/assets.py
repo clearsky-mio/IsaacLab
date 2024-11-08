@@ -21,7 +21,8 @@ from typing import Literal
 import carb
 import omni.client
 
-NUCLEUS_ASSET_ROOT_DIR = carb.settings.get_settings().get("/persistent/isaac/asset_root/cloud")
+# NUCLEUS_ASSET_ROOT_DIR = carb.settings.get_settings().get("/persistent/isaac/asset_root/cloud")
+NUCLEUS_ASSET_ROOT_DIR = "/media/hao/FAEA09C1EA097B61/Users/29644/Desktop/IsaacAssert/isaac-sim-assets-4.2.0/Assets/Isaac/4.2"
 """Path to the root directory on the Nucleus Server."""
 
 NVIDIA_NUCLEUS_DIR = f"{NUCLEUS_ASSET_ROOT_DIR}/NVIDIA"
