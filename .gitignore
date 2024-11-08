@@ -1,3 +1,6 @@
+DATA/
+attempts/
+
 # C++
 **/cmake-build*/
 **/build*/
